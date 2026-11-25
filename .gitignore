@@ -1,0 +1,29 @@
+# Secretos / configuración local
+firmware/config.h
+.env
+.env.*
+*.secret
+passwords.txt
+passwd
+mosquitto/passwords.txt
+node-red/flows_cred.json
+
+# Entorno local y temporales
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.tmp
+*.bak
+
+# Builds y cache Arduino
+build/
+.cache/
+*.elf
+*.hex
+*.bin
+*.map
+
+# Node-RED local settings
+node_modules/

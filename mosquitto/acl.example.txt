@@ -1,0 +1,10 @@
+# Permisos mínimos para PULSO-IoT
+user pulso_esp32
+topic write pulso-iot/device01/telemetry
+topic write pulso-iot/device01/status
+topic write pulso-iot/device01/session
+
+user pulso_dashboard
+topic read pulso-iot/device01/telemetry
+topic read pulso-iot/device01/status
+topic read pulso-iot/device01/session
